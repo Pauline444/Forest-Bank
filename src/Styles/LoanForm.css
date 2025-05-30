@@ -1,0 +1,168 @@
+.header {
+    display: flex;
+    justify-content: start;
+    padding: 50px 0 20px 50px;
+    margin-bottom: 40px;
+    background: linear-gradient(to right,
+            rgb(214, 213, 184) 0%,
+            rgba(255, 255, 255, 0) 100%);
+    width: 100vw;
+}
+
+.header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: #616635;
+    line-height: 0.8;
+    letter-spacing: -9px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main h2 {
+    padding: 10px;
+    background-color: rgba(214, 209, 184, 0.5);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    letter-spacing: -1px;
+    font-size: 25px;
+}
+
+.loan-form {
+    max-width: 500px;
+    background-color: rgba(214, 209, 184, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px auto 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #616635;
+}
+
+
+
+.input-area,
+select,
+textarea {
+    margin: 10px auto 30px auto;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px solid #f6f4e7;
+    background-color: #f6f4e7;
+}
+
+textarea {
+    height: 100px;
+}
+
+.checkbox,
+option,
+select,
+button {
+    cursor: pointer;
+}
+
+.checkbox {
+    margin-left: 30px;
+    border: 1px solid #dad5b0;
+    background-color: #555a2f;
+    border-radius: 50%;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+label.checkbox-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #616635;
+    color: #dad5b0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid #616635;
+}
+
+button:hover {
+    background-color: #555a2f;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: rgba(97, 102, 53, 0.9);
+    width: 100vw;
+    height: 130px;
+    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #e9e6cd;
+}
+
+.credit {
+    font-size: smaller;
+    padding-top: 30px;
+    color: #dad5b0;
+}
+
+.credit a {
+    color: #dad5b0;
+    text-decoration: none;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .loan-form {
+        max-width: 350px;
+    }
+
+    .header {
+        padding: 40px 0 10px 20px;
+    }
+
+    .input-area,
+    select,
+    textarea {
+        width: 280px;
+    }
+
+    .main h2 {
+        font-size: 18px;
+    }
+}
+
+/*#292e1c #616635 #8f9156 #Bfb87b*/

@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import React from 'react'
+import LoanForm from './Components/LoanForm'
+import './Styles/App.css'
 
 function App() {
 
   return (
     <>
-      <div>
-
+      <div className='app-background'>
+        <LoanForm />
       </div>
     </>
   )
