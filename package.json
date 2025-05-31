@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
+    "homepage": "https://Pauline444.github.io/forest-bank",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
