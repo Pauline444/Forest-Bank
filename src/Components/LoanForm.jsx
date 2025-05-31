@@ -89,7 +89,7 @@ function LoanForm() {
 
                     <label>
                         Ålder:
-                        {formData.age < 18 ? 'too young' : errors.age && <span className='error'>{errors.age}</span>}
+                        {errors.age && <span className='error'>{errors.age}</span>}
                         <input className='input-area' type='date' name='age' value={formData.age} onChange={handleChange} />
                     </label>
 
