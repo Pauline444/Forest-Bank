@@ -46,7 +46,7 @@
 .input-area,
 select,
 textarea {
-    margin: 10px auto 30px auto;
+    margin: 3px auto 30px auto;
     padding: 5px;
     display: flex;
     text-align: center;
